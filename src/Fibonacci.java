@@ -4,9 +4,9 @@
 
 public class Fibonacci {
 
-    private int[] precalculated = null;
+    private static int[] precalculated = null;
 
-    public int fibImproved(int n) {
+    public static int fibImproved(int n) {
         if (precalculated == null) {
             initPrecalculatedArray(n);
         }
@@ -18,7 +18,7 @@ public class Fibonacci {
             return result;
         }
     }
-    private void initPrecalculatedArray(int size) {
+    private static void initPrecalculatedArray(int size) {
         precalculated = new int[size];
         for (int i = 0; i < precalculated.length; i++) {
             precalculated[i] = -1; // to indicate "not calculated yet"
