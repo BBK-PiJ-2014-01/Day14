@@ -8,6 +8,6 @@ public class LaunchAnagram {
     }
 
     public void run() {
-        
+
     }
 }

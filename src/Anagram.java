@@ -8,9 +8,10 @@ public class Anagram {
 
     public static List<String> find(String input) {
         List<String> list = new LinkedList<String>();
-        String output = "";
         for (int i = 0; i < input.length(); i++) {
-            output = ""+input.charAt(i);
+            String firstLetter = ""+input.charAt(0);
+            String rest = input.substring(0,i)+input.substring(1,input.length());
+            
         }
         return(list);
     }
