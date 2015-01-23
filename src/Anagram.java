@@ -11,7 +11,9 @@ public class Anagram {
         for (int i = 0; i < input.length(); i++) {
             String firstLetter = ""+input.charAt(0);
             String rest = input.substring(0,i)+input.substring(1,input.length());
-            
+            for (int j=0;j < rest.length();j++) {
+
+            }
         }
         return(list);
     }
