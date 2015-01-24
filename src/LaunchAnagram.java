@@ -10,8 +10,10 @@ public class LaunchAnagram {
     }
 
     public void run() {
-        String input = "pierre";
+        String input = "part";
         List<String> list = Anagram.find(input);
-        list.toString();
+        for (int i=0;i<list.size();i++) {
+            System.out.println((i+1)+" "+list.get(i));
+        }
     }
 }

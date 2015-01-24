@@ -11,7 +11,7 @@ public class Anagram {
         List<String> list = new LinkedList<String>();
         for (int i = 0; i < input.length(); i++) {
             String firstLetter = ""+input.charAt(i);
-            String rest = ""+input.substring(0,i)+input.substring(1,input.length());
+            String rest = ""+input.substring(0,i)+input.substring(i+1,input.length());
             List<String> restList = new LinkedList<String>();;
             if (rest.length()==1)
                 restList.add(rest);
