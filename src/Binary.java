@@ -11,6 +11,7 @@ public class Binary {
             return(false);
         else {
             int index = list.size()/2;
+            /*
             if (list.get(index) == number)
                 return(true);
             if (list.get(index) < number) {
@@ -18,8 +19,8 @@ public class Binary {
                 for (int i=index;i<list.size();i++)
                     newList.add(list.get(i));
             }
-
             found =
+            */
         }
         return(found);
     }

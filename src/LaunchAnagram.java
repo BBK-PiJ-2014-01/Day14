@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * Created by Pierre on 21/01/2015.
  */
@@ -8,6 +10,8 @@ public class LaunchAnagram {
     }
 
     public void run() {
-
+        String input = "pierre";
+        List<String> list = Anagram.find(input);
+        list.toString();
     }
 }
