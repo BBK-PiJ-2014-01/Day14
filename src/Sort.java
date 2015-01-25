@@ -54,6 +54,7 @@ public class Sort {
                 if (unsortedList.get(i) <= pivot)
                     lowList.add(unsortedList.get(i));
                 else
+
                     highList.add(unsortedList.get(i));
             }
             List<Integer> sortedLowList = quickSort(lowList);
