@@ -16,3 +16,7 @@ Exercise 2:
 Exercise 3:
 - Classes Hailstone & LaunchHailstone completed
 - Numbers always seem to converge to 1 (ends-up repeating the sequence 4,2,1)
+
+Exercise 5:
+- Class Sort with method mergeSort() implemented
+- Class LaunchSort implemented. Printing a list before and after a Mergesort.
