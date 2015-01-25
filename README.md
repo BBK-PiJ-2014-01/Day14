@@ -17,6 +17,10 @@ Exercise 3:
 - Classes Hailstone & LaunchHailstone completed
 - Numbers always seem to converge to 1 (ends-up repeating the sequence 4,2,1)
 
+Exercise 4:
+- Classes Binary and LaunchBinary completed
+- In lists of 10, 100 or 1000, we need about 5 comparisons to find an element
+
 Exercise 5:
 - Class Sort with static method mergeSort() implemented
 - Class LaunchSort implemented. Printing a list before and after a Mergesort.
