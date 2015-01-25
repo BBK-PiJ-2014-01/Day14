@@ -12,15 +12,19 @@ public class LaunchBinary {
     }
 
     public void run() {
-        List<Integer> list = new LinkedList<Integer>();
-        for (int i=0;i<50;i++) {
-            list.add(i*2);
-        }
-        Binary b = new Binary();
-        if (b.search(list, 7))
+        Random randomGenerator = new Random();
+        List<Integer> unsortedList = new LinkedList<Integer>();
+        for (int i=0; i<20; i++)
+            unsortedList.add(randomGenerator.nextInt(100));
+        List<Integer> sortedList = Sort.mergeSort(unsortedList);
+
+        if (Binary.search(sortedList, 7))
             System.out.println("Number found!");
         else
             System.out.println("Sorry, not in the list!");
-        System.out.println(list.toString());
+
+        for (int i=0; i<20; i++) {
+            System.out.print(sortedList.get(i)+" ");
+        }
     }
 }

@@ -18,5 +18,9 @@ Exercise 3:
 - Numbers always seem to converge to 1 (ends-up repeating the sequence 4,2,1)
 
 Exercise 5:
-- Class Sort with method mergeSort() implemented
+- Class Sort with static method mergeSort() implemented
 - Class LaunchSort implemented. Printing a list before and after a Mergesort.
+
+Exercise 6:
+- Static method quickSort() implemented in Class Sort.
+- Running a Quicksort from LaunchSort Class. Printing a list before and after the Quicksort.

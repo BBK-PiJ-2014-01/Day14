@@ -5,7 +5,7 @@ import java.util.List;
  * Created by PierreM on 19/01/2015.
  */
 public class Binary {
-    public boolean search(List<Integer> list, int number) {
+    public static boolean search(List<Integer> list, int number) {
         boolean found = false;
         if (list==null)
             return(false);
