@@ -50,11 +50,10 @@ public class Sort {
             List<Integer> lowList = new LinkedList<Integer>();
             List<Integer> highList = new LinkedList<Integer>();
             int pivot = unsortedList.get(0);
-            for (int i=0; i<unsortedList.size(); i++) {
+            for (int i=1; i<unsortedList.size(); i++) {
                 if (unsortedList.get(i) <= pivot)
                     lowList.add(unsortedList.get(i));
                 else
-
                     highList.add(unsortedList.get(i));
             }
             List<Integer> sortedLowList = quickSort(lowList);
@@ -63,6 +62,7 @@ public class Sort {
                 resultList.add(sortedLowList.get(0));
                 sortedLowList.remove(0);
             }
+            resultList.add(pivot);
             while (!sortedHighList.isEmpty()) {
                 resultList.add(sortedHighList.get(0));
                 sortedHighList.remove(0);
