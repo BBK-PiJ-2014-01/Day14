@@ -28,3 +28,6 @@ Exercise 5:
 Exercise 6:
 - Static method quickSort() implemented in Class Sort.
 - Running a Quicksort from LaunchSort Class. Printing a list before and after the Quicksort.
+
+Exercise 7:
+- Class Polynomial created. Brute force. No binary search applied yet
